@@ -1,0 +1,93 @@
+
+
+body 1{ 
+    background-color: rgb(246, 243, 238);
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    text-align: center;
+}
+
+#principal {
+    background-image: url(./imagenes/finca.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.titulo{
+   text-align: center;
+} 
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(193, 208, 194);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+nav a:hover{
+    color:white;
+}
+
+
+.campestre{
+    background-image: url(/imagenes/campestre.jpeg);
+  
+}
+.fincaa{
+    width: 1500px;
+    height: 450px;
+    margin: 0 5px;
+}
+.plato{
+    width: 350px;
+    height: 250;
+    margin: 0 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    width: 1500px;
+    height: 450px;
+}
+.mul{
+    width: 350px;
+    height: 250;
+    margin: 0 5%;
+}
+
+.multimedia{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:900px) {
+    .container{
+        flex-direction: column;
+align-items: center;
+}
+
+
